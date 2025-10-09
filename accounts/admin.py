@@ -22,3 +22,4 @@ class ProfileAdmin(admin.ModelAdmin):
     get_user_display.short_description = "User"
     get_user_display.admin_order_field = "user__username"
     
+    
